@@ -9,18 +9,13 @@
 
 #pragma once
 
-#if !defined(NAMESPACE_BEGIN)
-#define NAMESPACE_BEGIN(name) namespace name {
-#endif
-#if !defined(NAMESPACE_END)
-#define NAMESPACE_END(name) }
-#endif
+namespace GTech {
+    namespace filesystem {
 
-NAMESPACE_BEGIN(GTech)
-NAMESPACE_BEGIN(filesystem)
+        class path;
+        class resolver;
 
-class path;
-class resolver;
+    }
+}
 
-NAMESPACE_END(filesystem)
-NAMESPACE_END(GTech)
+

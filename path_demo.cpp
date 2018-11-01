@@ -3,7 +3,7 @@
 #include <FS/resolver.h>
 
 using namespace std;
-using namespace filesystem;
+using namespace GTech::filesystem;
 
 int main(int argc, char **argv) {
 #if !defined(WIN32)

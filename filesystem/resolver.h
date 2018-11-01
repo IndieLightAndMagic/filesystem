@@ -11,9 +11,8 @@
 
 #include "path.h"
 
-NAMESPACE_BEGIN(GTech)
-NAMESPACE_BEGIN(filesystem)
-
+namespace GTech{
+    namespace filesystem{ 
 /**
  * \brief Simple class for resolving paths on Linux/Windows/Mac OS
  *
@@ -70,5 +69,5 @@ private:
     std::vector<path> m_paths;
 };
 
-NAMESPACE_END(filesystem)
-NAMESPACE_END(GTech)
+}
+}
