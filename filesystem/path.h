@@ -29,7 +29,7 @@
 #if defined(__linux)
 # include <linux/limits.h>
 #endif
-
+NAMESPACE_BEGIN(GTech)
 NAMESPACE_BEGIN(filesystem)
 
 /**
@@ -335,5 +335,5 @@ inline bool create_directory(const path& p) {
     return mkdir(p.str().c_str(), S_IRUSR | S_IWUSR | S_IXUSR) == 0;
 #endif
 }
-
 NAMESPACE_END(filesystem)
+NAMESPACE_END(GTech)

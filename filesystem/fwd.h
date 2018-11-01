@@ -16,9 +16,11 @@
 #define NAMESPACE_END(name) }
 #endif
 
+NAMESPACE_BEGIN(GTech)
 NAMESPACE_BEGIN(filesystem)
 
 class path;
 class resolver;
 
 NAMESPACE_END(filesystem)
+NAMESPACE_END(GTech)

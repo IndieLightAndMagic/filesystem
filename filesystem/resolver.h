@@ -11,6 +11,7 @@
 
 #include "path.h"
 
+NAMESPACE_BEGIN(GTech)
 NAMESPACE_BEGIN(filesystem)
 
 /**
@@ -70,3 +71,4 @@ private:
 };
 
 NAMESPACE_END(filesystem)
+NAMESPACE_END(GTech)
