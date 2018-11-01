@@ -1,6 +1,6 @@
 #include <iostream>
-#include "filesystem/path.h"
-#include "filesystem/resolver.h"
+#include <FS/path.h>
+#include <FS/resolver.h>
 
 using namespace std;
 using namespace filesystem;
